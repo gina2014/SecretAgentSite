@@ -1,0 +1,19 @@
+.header {
+
+}
+
+.white {
+  color: white;
+}
+
+.blackBG {
+  background-color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
