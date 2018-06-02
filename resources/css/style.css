@@ -87,6 +87,10 @@ html {
   padding-bottom: 0.75rem;
 }
 
+.nav-tablet {
+  display: none;
+}
+
 .nav .site-container {
   display: flex;
   justify-content: space-between;
@@ -188,4 +192,102 @@ html {
 
 .footer .site-container h5{
   text-align: left;
+}
+
+/* Media Queries to target screens less than 1024 */
+@media only screen and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+
+  .nav-tablet {
+    display: flex;
+    background-color: firebrick;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    justify-content: center;
+  }
+
+  .nav-tablet span a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .watch,
+  .pen {
+    width: 47%;
+  }
+
+  .newArrival h4 {
+    font-size: 0.85rem;
+  }
+
+  .newArrival h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .newArrival {
+    width: 100%;
+    position: relative;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .newArrival h4 {
+    font-size: 0.77rem;
+    padding-bottom: 0.50rem;
+  }
+
+  .newArrival h2 {
+    font-size: 1rem;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .products .site-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .product {
+    width: 100%;
+    margin: auto;
+  }
+
+  .info .site-container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location {
+    width: 100%;
+  }
+
+  .location span {
+    margin-bottom: 1rem;
+  }
+
+  .hours {
+    width: 100%;
+  }
+
+  .footer .site-container {
+    width: 100%;
+    justify-content: center;
+  }
 }
