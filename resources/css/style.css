@@ -231,6 +231,7 @@ html {
   }
 }
 
+/* Media Query to target screens of 470 pixels or less */
 @media only screen and (max-width: 470px) {
   .banner {
     height: 15rem;
