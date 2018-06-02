@@ -1,7 +1,14 @@
-.header {
-
+html {
+  font-size: 18px;
 }
 
+/* Site container class to keep main content in the width of 960px */
+.site-container {
+  width: 960px;
+  margin: 0px auto;
+}
+
+/* Common CSS rules as classes */
 .white {
   color: white;
 }
@@ -16,4 +23,69 @@
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.font-family {
+  font-family: Helvetica sans-serif;
+}
+
+/* Header Section */
+.header {
+  font-size: 1rem;
+}
+
+.header .site-container {
+  display: flex;
+  align-items: center;
+}
+
+.header .site-container img {
+  height: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.header .site-container span {
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+/* New Arrival Section with Banner */
+.banner {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.banner .site-container{
+  display: flex;
+}
+
+.newArrival {
+  width: 20rem;
+  position: relative;
+  top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.newArrival h4 {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.newArrival h2 {
+  font-size: 2rem;
+}
+
+/* Nav Section */
+.nav {
+  background-color: firebrick;
+}
+
+.nav span a{
+  color: white;
+  text-decoration: none;
 }
