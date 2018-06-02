@@ -83,9 +83,109 @@ html {
 /* Nav Section */
 .nav {
   background-color: firebrick;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.nav .site-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav span a{
   color: white;
   text-decoration: none;
+}
+
+.products .site-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  border: 4px solid black;
+  width: 30%;
+  top: 3rem;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.productImage img {
+  width: 9rem;
+}
+
+.productHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.productHeader h5 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+}
+
+.info .site-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  top: 3rem;
+  position: relative;
+  width: 35%;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  top: 3rem;
+  position: relative;
+  width: 35%;
+}
+
+.hours h5,
+.location h5 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  padding-left: 2rem;
+}
+
+.location span,
+.hours span {
+  margin-bottom: 4rem;
+  padding-top: 0.5rem;
+  background-color: firebrick;
+  border: 2px solid black;
+  color: white;
+  padding-left: 2rem;
+}
+
+.footer .site-container{
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.footer .site-container h5{
+  text-align: left;
 }
